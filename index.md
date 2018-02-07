@@ -1,37 +1,141 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/tranc3me/webstuff/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tranc3me/webstuff/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Moja prva stranica</title>
+	<meta name="viweport" content="width=device-width, initial-scale=1.0">
+	<link href="styles.css" rel="stylesheet">
+	</head>
+<body>
+<div id="Container">
+	<div class="header"><img src="bg-2.jpg" 
+							class="head"
+							alt="title1" 
+							height="100"
+							width="800" />
+		</div>
+	<div class="menu">
+	<ul class="buttons">
+		<li><a href="card.html">Home</a></li>
+	<li class="aboutMe"><a href="#aboutme">About</a></li>
+		<li class="myPorfolio"><a href="#jump">My Portfolio</a></li>
+		<li class="goat"><a href="#">G.O.A.T</a>
+			<ul class="drop">
+	<li class="margin"><a href="www.rogerfederer.com">WebSite</a></li>
+			<li><a href="www.facebook.com">Facebook</a></li>
+			
+		</ul>
+		
+		
+		</li>
+	
+	
+	
+	
+	
+	<ul>	
+	
+	</div>
+	<div class="content1">
+			<img src="maxresdefault.jpg"
+				class="federer"
+				alt="fedo"
+				height="500"
+				width="800" />
+	
+	
+	</div>
+	<div class="content2">
+		<img src="ja.jpg"
+			alt="ja"
+			class="mojaSlika"
+			height="250px"
+			width="250px" />
+	
+	
+	</div>
+	<div class="content3" style="padding-left:10px;">
+		<h1 style="color:Aqua"><a id="aboutme"></a>Why Am I The Greates Of All Time?</h1>
+	<p>In addition to winning the most number of grand slam titles, being ATP#1
+	    the longest(302 weeks) and the most number of consecutive weeks(237 weeks)..
+    <p><strong>What is the first thing that comes to mind when somebody says Tennis?</strong><br>
+	To most people and to even non-tennis people across the world it is "Roger Federer".
+		His Name is synonyms to Tennis.That defines his greatness and his legacy,and you can't deny him that.</p>
+	</div>
+	<div class="content4" style="padding-left:10px;">
+		<h2 style="color:aqua">Poetic style of play !</h2>
+		<p>His style of play is poetic.Its not just some fancy word I am using,
+			rather its how people feel when they watch him play.It's most elegant,
+			poetic,beautiful,and effortless play of tennis ever been witnessed.
+			Many other great players from his own era play grinding tennis.
+			But roger Federer is <strong><em>Poetry in motion.</em></strong>
+	
+	
+	</div>
+	<div class="content5">
+		<blockquote style="border:1px solid LightGray; background-color:SeaShell; border-radius:30%; padding: 0px 0px 10px 10px;">
+		<p><q>I can cry like Roger, but shame I can't play like him!</q></p>
+		<footer>&mdash; Andy Murray</footer>
+		</blockquote>
+		
+		<blockquote style="border:1px solid WhiteSmoke; background-color:SeaShell; border-radius:30%; padding: 0px 0px 10px 10px;">
+		<p><q>If you poll the top 500 tennis guys in the world, about 499 are going to say Roger.
+				the onle one who won't is Roger himself because he's too nice about it.</q></p>
+				<footer>&mdash; James Blake</footer>
+		</blockquote>
+	
+	
+	</div>
+	<div class="content6" id="jump">
+<h3 style="color:aqua">Statistics?</h3>
+	<section class="center6">
+		
+	
+	<ul>
+		<li>60% Better than Rafael Nadal</li>
+		<li>110% Better than Djokovic</li>
+		<li>203% Better than Bjorn Borg</li>
+		<li>999% Better than Marin Čilić</li>
+		<li>999999% Better than you!</li>
+	</ul>		
+		</section>
+	</div>
+	<div class="content7">
+		<iframe width="300px" height="200px"
+		src="https://www.youtube.com/embed/"watch?v=0gfEqBdUkfE>
+		</iframe>
+		
+		
+	</div>
+	<div class="footer">
+	<img src="all.jpg"
+		height="250px"
+		width="800px"
+		alt="allSlams" />
+	
+	<blockquote style="text-align:center; border:1px solid SeaShell; background-color:SeaShell">
+	<p style="line-height:20px;"><q>I don't think, that you can always,you can ever get your game to perfection.
+			Only if you're Federer!</q><br>&mdash; Novak Djokovic</p>
+	</blockquote>		
+	
+	</div>
+	
+	<div class="footer2">
+	
+	<section>
+	<p style="color:red; text-align:center;">Ova slika je Dodana samo da se moze vise skrolat!!!!!<br>
+	Klikni Za Vraćanje na pocetak
+	
+	
+	</p>
+	
+	</section>
+	
+	</div>
+	
+	</div>
+	</body>
+	
+	
+</html>
